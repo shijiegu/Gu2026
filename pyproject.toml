@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gucompaper"
+version = "0.1.0"
+description = "Analysis code accompanying the Gu et al. change-of-mind paper"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Shijie Gu", email = "shijie.gu@ucsf.edu" },
+]
+license = { text = "MIT" }
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "statsmodels",
+    "h5py",
+    "pynwb",
+    "xarray",
+    "tqdm",
+    "networkx",
+    "opencv-python",
+    "track-linearization",
+    "ripple-detection",
+    "non-local-detector",
+    "spikeinterface",
+    "datajoint",
+    "spyglass-neuro",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+gucompaper = ["*.ipynb"]

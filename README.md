@@ -1,4 +1,4 @@
-# GuCOMpaper
+# gucompaper: Naturalistic behavior and self-generated neural activity predictive of self-correction
 
 Analysis code accompanying the Gu et al. change-of-mind paper.
 

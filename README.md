@@ -5,7 +5,7 @@ Analysis code accompanying the Gu et al. change-of-mind paper.
 The code was previously developed inside the [Spyglass](https://github.com/LorenFrankLab/spyglass)
 framework under `spyglass.shijiegu` and has been extracted into a standalone, installable package.
 
-[DOI](https://doi.org/10.5281/zenodo.20371882)
+**DOI** 10.5281/zenodo.20371883
 
 ## Install
 

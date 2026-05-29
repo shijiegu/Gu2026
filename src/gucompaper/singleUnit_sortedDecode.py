@@ -1,5 +1,4 @@
 import os
-import cupy as cp
 import numpy as np
 import datajoint as dj
 import spyglass as nd

@@ -9,7 +9,6 @@ import numpy as np
 import xarray as xr
 import logging
 import os
-import cupy as cp
 from scipy import linalg
 
 FORMAT = '%(asctime)s %(message)s'
